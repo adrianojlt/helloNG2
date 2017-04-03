@@ -1,3 +1,5 @@
+# Angular 2 training material
+
 # HelloNG2
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.28.3.
