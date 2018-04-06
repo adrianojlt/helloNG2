@@ -6,17 +6,26 @@ import { Routes, RouterModule } from '@angular/router'
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
+import { FormComponent } from './forms/forms.component';
+import { TablesComponent } from './tables/tables.component';
 
-export const ROUTES: Routes = []
+export const ROUTES: Routes = [
+  //{ path: 'dash', component: null, pathMatch: 'full' },
+  { path: 'forms', component: FormComponent },
+  { path: 'tables', component: TablesComponent }
+  //{ path: '**', component: null }
+]
 
 @NgModule({
   declarations: [
     AppComponent,
+    FormComponent,
+    TablesComponent,
     HeaderComponent
   ],
   imports: [
     BrowserModule,
-    RouterModule,
+    RouterModule.forRoot(ROUTES),
     FormsModule,
     HttpModule
   ],

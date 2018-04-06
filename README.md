@@ -1,4 +1,11 @@
+
+
 # Angular 2 training material
+
+
+# topics
+ - Router
+ - Forms
 
 # HelloNG2
 
